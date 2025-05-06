@@ -30,7 +30,7 @@ const Experience = () => {
               <div className="sticky top-24 bg-slate-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="h-48 bg-gradient-to-r from-slate-400 to-slate-500 relative">
                   <img 
-                    src="/uploads/smartfuel.webp" 
+                    src="/minimalist-resume-web/uploads/smartfuel.webp" 
                     alt="Vehicle dashboard with fuel gauge" 
                     className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
                   />
@@ -45,7 +45,7 @@ const Experience = () => {
                 </div>
                 <div className="p-4">
                   <div className="flex flex-wrap gap-2">
-                    {["Node.js", "TypeScript", "MongoDB", "AWS", "Docker", "CI/CD"].map((tech) => (
+                    {["Node.js", "TypeScript", "MongoDB", "AWS", "Docker", "CI/CD", "LLM"].map((tech) => (
                       <span key={tech} className="bg-slate-200 px-2 py-1 text-xs text-slate-700 rounded">
                         {tech}
                       </span>
@@ -92,7 +92,7 @@ const Experience = () => {
               <div className="sticky top-24 bg-slate-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="h-48 bg-gradient-to-r from-slate-400 to-slate-500 relative">
                   <img 
-                    src="/uploads/stocks.avif" 
+                    src="/minimalist-resume-web/uploads/stocks.avif" 
                     className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 to-transparent flex items-end">
@@ -106,7 +106,7 @@ const Experience = () => {
                 </div>
                 <div className="p-4">
                   <div className="flex flex-wrap gap-2">
-                    {["Laravel", "GraphQL", "WebSocket", "MySQL", "Docker"].map((tech) => (
+                    {["Laravel", "GraphQL", "WebSocket", "MySQL", "Docker", "Make.com", "LLM"].map((tech) => (
                       <span key={tech} className="bg-slate-200 px-2 py-1 text-xs text-slate-700 rounded">
                         {tech}
                       </span>
@@ -153,7 +153,7 @@ const Experience = () => {
               <div className="sticky top-24 bg-slate-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="h-48 bg-gradient-to-r from-slate-400 to-slate-500 relative">
                   <img 
-                    src="/uploads/meridianbet-rs-kladionica.jpg" 
+                    src="/minimalist-resume-web/uploads/meridianbet-rs-kladionica.jpg" 
                     alt="Smartphone with notifications" 
                     className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
                   />

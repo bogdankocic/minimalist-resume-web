@@ -21,18 +21,35 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+
+    try {
+      const response = await fetch("https://v0-simple-serverless-project.vercel.app/api", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          first_name: formData.firstName,
+          last_name: formData.lastName,
+          email: formData.email,
+          phone_number: formData.phone,
+          message: formData.message,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
+
       toast({
         title: "Message sent successfully!",
         description: "Thanks for reaching out. I'll get back to you shortly.",
         duration: 5000,
       });
+
       setFormData({
         firstName: "",
         lastName: "",
@@ -40,7 +57,16 @@ const Contact = () => {
         phone: "",
         message: "",
       });
-    }, 1500);
+    } catch (error) {
+      toast({
+        title: "Error sending message",
+        description: "There was an issue sending your message. Please try again later.",
+        duration: 5000,
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
