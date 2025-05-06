@@ -164,7 +164,7 @@ const Contact = () => {
                     className="flex items-center text-teal-600 hover:text-teal-800 transition-colors"
                   >
                     <Mail className="w-5 h-5 mr-2" />
-                    bogdan@example.com
+                    kocicbogdan99@gmail.com
                   </a>
                 </div>
                 
@@ -175,7 +175,7 @@ const Contact = () => {
                     className="flex items-center text-teal-600 hover:text-teal-800 transition-colors"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    +123 456 7890
+                    +381 60 561 1621
                   </a>
                 </div>
                 
@@ -183,7 +183,7 @@ const Contact = () => {
                   <h3 className="text-lg font-medium text-slate-900 mb-2">Connect</h3>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://www.linkedin.com" 
+                      href="https://www.linkedin.com/in/bogdan-kocić-4446b6221/" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-slate-700 hover:text-teal-600 transition-colors"
@@ -191,7 +191,7 @@ const Contact = () => {
                       LinkedIn
                     </a>
                     <a 
-                      href="https://github.com" 
+                      href="https://github.com/bogdankocic" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-slate-700 hover:text-teal-600 transition-colors"

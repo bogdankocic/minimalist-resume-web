@@ -14,7 +14,7 @@ const Index = () => {
               Bogdan Kocić
             </h1>
             <h2 className="text-xl md:text-2xl text-slate-700 mb-6 opacity-0 animate-fade-in-delay-1">
-              Backend Developer & System Architect
+              Backend Developer & AI Automation Expert
             </h2>
             <p className="text-slate-600 mb-8 max-w-lg opacity-0 animate-fade-in-delay-2">
               Specialized in building robust backend systems and architectures, with expertise in AI-driven workflow automation 
@@ -35,7 +35,7 @@ const Index = () => {
               </Link>
               <div className="flex items-center gap-3 ml-1">
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/bogdan-kocić-4446b6221/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -44,7 +44,7 @@ const Index = () => {
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/bogdankocic"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -59,13 +59,10 @@ const Index = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl animate-fade-in">
                 <img
-                  src="/lovable-uploads/fc0c602a-6f7a-403a-b815-a848ccfd63d4.png"
+                  src="/uploads/fc0c602a-6f7a-403a-b815-a848ccfd63d4.png"
                   alt="Bogdan Kocić"
                   className="w-full h-full object-cover object-center"
                 />
-              </div>
-              <div className="absolute -right-4 -bottom-4 bg-teal-50 p-4 rounded-lg shadow-md animate-fade-in-delay-2">
-                <p className="text-teal-700 font-medium text-sm">CTO @ Madduckcode</p>
               </div>
             </div>
           </div>
@@ -110,6 +107,22 @@ const Index = () => {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* AI Automation Workflow Section */}
+      <section id="ai-automation" className="py-16 bg-teal-100">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <h2 className="section-title">Why Me</h2>
+          <p className="text-slate-700 mb-6">
+            What sets me apart in AI automation is my strong backend knowledge, which allows me to design and implement workflows that are not only efficient but also cost-effective.
+          </p>
+          <p className="text-slate-700 mb-6">
+            By leveraging my expertise in backend systems, I can reduce the overall cost of automation projects and enable advanced workflows that others might find challenging to achieve.
+          </p>
+          <p className="text-slate-700">
+            This unique combination of AI and backend skills empowers me to deliver automation solutions that drive real business value and scalability.
+          </p>
         </div>
       </section>
 

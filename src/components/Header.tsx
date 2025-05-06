@@ -48,7 +48,7 @@ const Header = () => {
             </NavLink>
             <div className="ml-4 flex items-center space-x-3">
               <a 
-                href="https://www.linkedin.com" 
+                href="https://www.linkedin.com/in/bogdan-kocić-4446b6221/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -57,7 +57,7 @@ const Header = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/bogdankocic" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -111,7 +111,7 @@ const Header = () => {
               </NavLink>
               <div className="flex items-center space-x-3 pt-2">
                 <a 
-                  href="https://www.linkedin.com" 
+                  href="https://www.linkedin.com/in/bogdan-kocić-4446b6221/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -120,7 +120,7 @@ const Header = () => {
                   <Linkedin size={20} />
                 </a>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/bogdankocic" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="GitHub"

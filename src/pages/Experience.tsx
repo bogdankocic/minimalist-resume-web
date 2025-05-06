@@ -30,7 +30,7 @@ const Experience = () => {
               <div className="sticky top-24 bg-slate-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="h-48 bg-gradient-to-r from-slate-400 to-slate-500 relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1600320254374-ce2d293c324e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
+                    src="/uploads/smartfuel.webp" 
                     alt="Vehicle dashboard with fuel gauge" 
                     className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
                   />
@@ -40,14 +40,10 @@ const Experience = () => {
                         2024 - 2025
                       </div>
                       <h3 className="text-xl font-bold mb-1">SmartFuel</h3>
-                      <p className="text-sm opacity-90">Madduckcode (Shift2ai)</p>
                     </div>
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-slate-700 text-sm mb-4">
-                    Backend Developer & System Architect
-                  </p>
                   <div className="flex flex-wrap gap-2">
                     {["Node.js", "TypeScript", "MongoDB", "AWS", "Docker", "CI/CD"].map((tech) => (
                       <span key={tech} className="bg-slate-200 px-2 py-1 text-xs text-slate-700 rounded">
@@ -96,8 +92,7 @@ const Experience = () => {
               <div className="sticky top-24 bg-slate-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="h-48 bg-gradient-to-r from-slate-400 to-slate-500 relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1549421263-6064833b071b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
-                    alt="Electricity tower and lines" 
+                    src="/uploads/stocks.avif" 
                     className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 to-transparent flex items-end">
@@ -106,14 +101,10 @@ const Experience = () => {
                         2024 - 2024
                       </div>
                       <h3 className="text-xl font-bold mb-1">ReverseAuction</h3>
-                      <p className="text-sm opacity-90">Madduckcode (Shift2ai)</p>
                     </div>
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-slate-700 text-sm mb-4">
-                    Backend Developer & System Architect
-                  </p>
                   <div className="flex flex-wrap gap-2">
                     {["Laravel", "GraphQL", "WebSocket", "MySQL", "Docker"].map((tech) => (
                       <span key={tech} className="bg-slate-200 px-2 py-1 text-xs text-slate-700 rounded">
@@ -162,7 +153,7 @@ const Experience = () => {
               <div className="sticky top-24 bg-slate-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="h-48 bg-gradient-to-r from-slate-400 to-slate-500 relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
+                    src="/uploads/meridianbet-rs-kladionica.jpg" 
                     alt="Smartphone with notifications" 
                     className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
                   />
@@ -172,14 +163,10 @@ const Experience = () => {
                         2023 - 2024
                       </div>
                       <h3 className="text-xl font-bold mb-1">Meridian Notifications</h3>
-                      <p className="text-sm opacity-90">Madduckcode (Shift2ai)</p>
                     </div>
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-slate-700 text-sm mb-4">
-                    Backend Developer & System Architect
-                  </p>
                   <div className="flex flex-wrap gap-2">
                     {["Laravel", "Salesforce", "PostgreSQL", "Docker", "CI/CD"].map((tech) => (
                       <span key={tech} className="bg-slate-200 px-2 py-1 text-xs text-slate-700 rounded">

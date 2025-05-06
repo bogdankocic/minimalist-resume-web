@@ -37,18 +37,18 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-slate-900">Contact</h3>
             <div className="flex flex-col space-y-2">
               <a 
-                href="mailto:bogdan@example.com" 
+                href="mailto:kocicbogdan99@gmail.com" 
                 className="text-slate-700 hover:text-teal-600 transition-colors flex items-center"
               >
                 <Mail size={16} className="mr-2" />
-                bogdan@example.com
+                kocicbogdan99@gmail.com
               </a>
               <a 
-                href="tel:+1234567890" 
+                href="tel:+381605611621" 
                 className="text-slate-700 hover:text-teal-600 transition-colors flex items-center"
               >
                 <Phone size={16} className="mr-2" />
-                +123 456 7890
+                +381 60 561 1621
               </a>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-slate-900">Connect</h3>
             <div className="flex flex-col space-y-2">
               <a 
-                href="https://www.linkedin.com" 
+                href="https://www.linkedin.com/in/bogdan-kocić-4446b6221/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-slate-700 hover:text-teal-600 transition-colors"
@@ -66,7 +66,7 @@ const Footer = () => {
                 LinkedIn
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/bogdankocic" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-slate-700 hover:text-teal-600 transition-colors"
