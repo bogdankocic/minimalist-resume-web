@@ -1,13 +1,168 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Link } from "react-router-dom";
+import Layout from "../components/Layout";
+import { ArrowDown, Github, Linkedin } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout>
+      {/* Hero Section */}
+      <section className="pt-12 md:pt-20 pb-16 container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="order-2 md:order-1">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-slate-900 animate-fade-in">
+              Bogdan Kocić
+            </h1>
+            <h2 className="text-xl md:text-2xl text-slate-700 mb-6 opacity-0 animate-fade-in-delay-1">
+              Backend Developer & System Architect
+            </h2>
+            <p className="text-slate-600 mb-8 max-w-lg opacity-0 animate-fade-in-delay-2">
+              Specialized in building robust backend systems and architectures, with expertise in AI-driven workflow automation 
+              and integration solutions that help businesses scale efficiently.
+            </p>
+            <div className="flex flex-wrap gap-4 opacity-0 animate-fade-in-delay-3">
+              <Link
+                to="/contact"
+                className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg transition-colors duration-200 font-medium"
+              >
+                Get in Touch
+              </Link>
+              <Link
+                to="/experience"
+                className="bg-slate-200 hover:bg-slate-300 text-slate-800 px-6 py-3 rounded-lg transition-colors duration-200 font-medium"
+              >
+                View Experience
+              </Link>
+              <div className="flex items-center gap-3 ml-1">
+                <a
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin size={20} />
+                </a>
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon"
+                  aria-label="GitHub"
+                >
+                  <Github size={20} />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="order-1 md:order-2 flex justify-center md:justify-end mb-8 md:mb-0">
+            <div className="relative">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl animate-fade-in">
+                <img
+                  src="/lovable-uploads/fc0c602a-6f7a-403a-b815-a848ccfd63d4.png"
+                  alt="Bogdan Kocić"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <div className="absolute -right-4 -bottom-4 bg-teal-50 p-4 rounded-lg shadow-md animate-fade-in-delay-2">
+                <p className="text-teal-700 font-medium text-sm">CTO @ Madduckcode</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center mt-16">
+          <a
+            href="#about"
+            className="flex flex-col items-center text-slate-500 hover:text-teal-600 transition-colors duration-200"
+          >
+            <span className="mb-2 text-sm">Learn more</span>
+            <ArrowDown size={20} className="animate-bounce" />
+          </a>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-16 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <h2 className="section-title">About Me</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-slate-800">Backend Development Expertise</h3>
+              <p className="text-slate-600 mb-4">
+                As a Backend Developer and System Architect, I specialize in designing and implementing robust, 
+                scalable backend solutions that power innovative digital products.
+              </p>
+              <p className="text-slate-600">
+                With experience across Laravel, Node.js, and various database technologies, 
+                I bring technical depth and versatility to every project.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-slate-800">AI Workflow Automation</h3>
+              <p className="text-slate-600 mb-4">
+                I'm passionate about leveraging AI technologies to automate complex business workflows, 
+                creating efficiency gains and unlocking new capabilities for organizations.
+              </p>
+              <p className="text-slate-600">
+                My work includes integrating AI systems with existing platforms, building 
+                custom automation solutions, and developing intelligent notification systems that 
+                help businesses operate more effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Skills Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="section-title">Technical Skills</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
+              <h3 className="font-semibold text-lg mb-3 text-slate-900">Backend Development</h3>
+              <p className="text-slate-600">Laravel, Node.js, TypeScript, GraphQL, WebSocket</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
+              <h3 className="font-semibold text-lg mb-3 text-slate-900">Database Technologies</h3>
+              <p className="text-slate-600">PostgreSQL, MySQL, MongoDB, Redis</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
+              <h3 className="font-semibold text-lg mb-3 text-slate-900">Automation & Integration</h3>
+              <p className="text-slate-600">AI Workflow Automation, Salesforce Marketing Cloud, API Integration</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
+              <h3 className="font-semibold text-lg mb-3 text-slate-900">DevOps</h3>
+              <p className="text-slate-600">Docker, CI/CD, AWS, Monitoring & Logging</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
+              <h3 className="font-semibold text-lg mb-3 text-slate-900">Security</h3>
+              <p className="text-slate-600">Sentry, Authentication, Authorization, Data Protection</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
+              <h3 className="font-semibold text-lg mb-3 text-slate-900">Version Control</h3>
+              <p className="text-slate-600">GitHub, GitLab, Code Review, Collaboration</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-teal-50">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">Ready to work together?</h2>
+          <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
+            Let's discuss how my backend expertise and AI automation skills can help your business 
+            build robust, scalable technical solutions.
+          </p>
+          <Link
+            to="/contact"
+            className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg transition-colors duration-200 font-medium inline-block"
+          >
+            Contact Me
+          </Link>
+        </div>
+      </section>
+    </Layout>
   );
 };
 
