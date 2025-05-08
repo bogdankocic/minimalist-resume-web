@@ -10,8 +10,8 @@ const Index: React.FC = () => {
       <SeoMeta
         title="Bogdan Kocić - Backend Developer & AI Automation Expert"
         description="Specialized in building robust backend systems and architectures, with expertise in AI-driven workflow automation and integration solutions."
-        url="https://yourdomain.com/"
-        image="https://yourdomain.com/uploads/openart-prva.png"
+        url="https://bogdankocic.com/"
+        image="https://bogdankocic.com/uploads/openart-prva.png"
       />
       <Layout>
         {/* Hero Section */}
