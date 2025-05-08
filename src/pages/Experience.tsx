@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Experience = () => {
   // List of technologies used across projects
   const technologies = [
-    "Laravel", "Node.js", "TypeScript", "GraphQL", "WebSocket", 
+    "Make.com", "n8n", "Preplaxity", "OpenAI", "PHP", "Node.js", "TypeScript", "GraphQL", "WebSocket", 
     "Salesforce Marketing Cloud", "Docker", "CI/CD", "PostgreSQL", 
     "MySQL", "MongoDB", "Redis", "AWS", "Sentry", "GitHub/GitLab"
   ];
@@ -18,8 +18,7 @@ const Experience = () => {
         
         <p className="text-slate-600 mb-12 max-w-3xl animate-fade-in-delay-1">
           Throughout my career, I've specialized in backend development and system architecture, 
-          with a particular focus on AI-powered workflow automation. Below is a timeline of my 
-          professional experience and key projects.
+          with a particular focus on AI-powered workflow automation.
         </p>
 
         {/* Experience Timeline */}

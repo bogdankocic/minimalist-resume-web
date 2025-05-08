@@ -141,11 +141,11 @@ const Index: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
                 <h3 className="font-semibold text-lg mb-3 text-slate-900">Backend Development</h3>
-                <p className="text-slate-600">Laravel, Node.js, TypeScript, GraphQL, WebSocket</p>
+                <p className="text-slate-600">PHP, Node.js, TypeScript, GraphQL, WebSocket</p>
               </div>
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
-                <h3 className="font-semibold text-lg mb-3 text-slate-900">Database Technologies</h3>
-                <p className="text-slate-600">PostgreSQL, MySQL, MongoDB, Redis</p>
+                <h3 className="font-semibold text-lg mb-3 text-slate-900">Storage Technologies</h3>
+                <p className="text-slate-600">PostgreSQL, MySQL, MongoDB, Redis, Memcached, S3, CDN</p>
               </div>
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
                 <h3 className="font-semibold text-lg mb-3 text-slate-900">Automation & Integration</h3>
@@ -153,7 +153,7 @@ const Index: React.FC = () => {
               </div>
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
                 <h3 className="font-semibold text-lg mb-3 text-slate-900">DevOps</h3>
-                <p className="text-slate-600">Docker, CI/CD, AWS, Monitoring & Logging</p>
+                <p className="text-slate-600">Docker, CI/CD, AWS, Vercel, Laravel Vapor, Monitoring & Logging</p>
               </div>
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
                 <h3 className="font-semibold text-lg mb-3 text-slate-900">Security</h3>
@@ -161,7 +161,7 @@ const Index: React.FC = () => {
               </div>
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 hover:shadow-md transition-shadow duration-300">
                 <h3 className="font-semibold text-lg mb-3 text-slate-900">Version Control</h3>
-                <p className="text-slate-600">GitHub, GitLab, Code Review, Collaboration</p>
+                <p className="text-slate-600">GitHub, GitLab</p>
               </div>
             </div>
           </div>
