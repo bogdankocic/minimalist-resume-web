@@ -59,7 +59,7 @@ const Index = () => {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl animate-fade-in">
               <img
-                src="/minimalist-resume-web/uploads/openart-prva.png"
+                src="/uploads/openart-prva.png"
                 alt="Bogdan Kocić"
                 className="w-full object-cover object-center"
               />
