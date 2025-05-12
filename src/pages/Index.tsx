@@ -76,13 +76,18 @@ const Index: React.FC = () => {
             </div>
           </div>
           <div className="flex justify-center mt-16">
-            <a
-              href="#about"
+            <button
+              onClick={() => {
+                const aboutSection = document.getElementById("about");
+                if (aboutSection) {
+                  aboutSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
               className="flex flex-col items-center text-slate-500 hover:text-teal-600 transition-colors duration-200"
             >
               <span className="mb-2 text-sm">Learn more</span>
               <ArrowDown size={20} className="animate-bounce" />
-            </a>
+            </button>
           </div>
         </section>
 
