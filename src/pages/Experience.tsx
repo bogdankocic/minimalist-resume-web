@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Experience = () => {
   // List of technologies used across projects
   const technologies = [
-    "Make.com", "n8n", "Preplexity", "OpenAI", "PHP", "Node.js", "TypeScript", "GraphQL", "WebSocket", 
+    "Make.com", "n8n", "Perplexity", "OpenAI", "PHP", "Node.js", "TypeScript", "GraphQL", "WebSocket", 
     "Salesforce Marketing Cloud", "Docker", "CI/CD", "PostgreSQL", 
     "MySQL", "MongoDB", "Redis", "AWS", "Sentry", "GitHub/GitLab"
   ];
