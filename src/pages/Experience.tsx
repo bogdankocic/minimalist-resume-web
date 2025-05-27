@@ -137,9 +137,7 @@ const Experience = () => {
                 <div className="bg-teal-50 p-4 rounded-lg border border-teal-100">
                   <h4 className="font-semibold text-slate-900 mb-2">AI Automation Highlight</h4>
                   <p className="text-slate-700">
-                    Implemented an AI-powered dynamic pricing suggestion system that analyzes market conditions, 
-                    historical pricing data, and competitor behavior to provide actionable bid recommendations, 
-                    significantly improving win rates for participants.
+                  Implemented an AI-powered bid simulation
                   </p>
                 </div>
               </div>
